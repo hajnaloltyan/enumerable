@@ -40,6 +40,8 @@
 ### Key Features <a name="key-features"></a>
 
 - Create our own Enumerable
+- Use Ruby syntax for basic programming operations.
+- Apply Ruby best practices and language style guides in code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
