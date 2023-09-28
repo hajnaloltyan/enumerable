@@ -1,5 +1,5 @@
 module MyEnumerable
-  def all?(&block)
+  def all?
     each do |element|
       return true unless yield(element)
     end
@@ -7,7 +7,7 @@ module MyEnumerable
     false
   end
 
-  def any?(&block)
+  def any?
     each do |element|
       return true if yield(element)
     end
@@ -15,7 +15,7 @@ module MyEnumerable
     false
   end
 
-  def filter(&block)
+  def filter
     result = []
 
     each do |element|
